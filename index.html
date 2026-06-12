@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>مدبّر | إدارة أموالك بذكاء</title>
+</head>
+
+<body>
+    <div class="dashboard flex">
+        <nav class="flex">
+            <div class="logo flex">
+                <div class="logo-icon flex">
+                    <img src="images/icons/coins-solid-full.png" alt="icon" class="icon bg-red">
+                </div>
+                <div class="logo-tittel">
+                    <span class="fo-xxl">مدبّر</span>
+                    <p class="color-gray">إدارة أموالك بذكاء</p>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li>
+                        <span class="flex home-li">
+                            <img src="images/icons/house-solid-full.png" alt="icon" class="icon">
+                            <span class="fo-xl color-blue">الصفحة الرئيسية</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="flex">
+                            <img src="images/icons/arrow-right-arrow-left-solid-full.png" alt="icon" class="icon">
+                            <span class="fo-xl color-gray">المعاملات</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="flex">
+                            <img src="images/icons/chart-pie-solid-full.png" alt="icon" class="icon">
+                            <span class="fo-xl color-gray">الميزانيات</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="flex">
+                            <img src="images/icons/piggy-bank-solid.png" alt="icon" class="icon">
+                            <span class="fo-xl color-gray">المدخرات</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="flex">
+                            <img src="images/icons/file-invoice-dollar-solid-full.png" alt="icon" class="icon">
+                            <span class="fo-xl color-gray">الفواتير الشهرية</span>
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="quick-actions">
+                <h3 class="fo-md color-gray">إجراءات سريعة</h3>
+                <button class="flex">
+                    <div class="flex send-mony">
+                        <img src="images/icons/paper-plane-solid-full.png" alt="" class="icon">
+                    </div>
+                    <span class="fo-md color-gray">إرسال أموال</span>
+                </button>
+                <button class="flex">
+                    <div class="flex add-mony">
+                        <img src="images/icons/plus-solid-full.png" alt="" class="icon">
+                    </div>
+                    <span class="fo-md color-gray">إضافة أموال</span>
+                </button>
+                <button class="flex">
+                    <div class="flex pay-bill">
+                        <img src="images/icons/receipt-solid-full.png" alt="" class="icon">
+                    </div>
+                    <span class="fo-md color-gray">دفع فاتورة</span>
+                </button>
+                <button class="flex">
+                    <div class="flex invest">
+                        <img src="images/icons/chart-line-solid-full.png" alt="" class="icon">
+                    </div>
+                    <span class="fo-md color-gray">استثمار</span>
+                </button>
+            </div>
+        </nav>
+        <main>
+            <header>
+                <div class="header-info card flex">
+                    <div class="r-card flex">
+                        <div class="logo flex">
+                            <div class="logo-icon flex">
+                                <img src="images/icons/coins-solid-full.png" alt="icon" class="icon bg-red">
+                            </div>
+                            <div class="logo-tittel">
+                                <span class="fo-xxl">مدبّر</span>
+                                <p class="color-gray">إدارة أموالك بذكاء</p>
+                            </div>
+                        </div>
+                        <div class="conect flex none-1024">
+                            <!-- <div class="led fa-beat fa-fade "></div> -->
+                            <div class="led"></div>
+                            <span class="color-green ">متصل</span>
+                        </div>
+                    </div>
+                    <div class="l-card flex align-ce gab-500">
+
+                        <div class="flex gab-500">
+                            <div class="notification">
+                                <span class="not">2</span>
+                                <span class="square-icon-40  color-gray flex flex-ceneter">
+                                    <i class="fa-regular fa-bell"></i>
+                                </span>
+                            </div>
+                            <div class="search">
+                                <span class="square-icon-40  color-gray flex flex-ceneter">
+                                    <i class="fa-solid fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="accunet flex">
+
+                            <div class="name">
+                                <p class="fo-md">اسلام محمد</p>
+                                <p class="fo-sm color-gray">حساب مميز</p>
+                            </div>
+                            <div class="avatar">
+                                <img src="images/avatar-1.jpg" alt="eslam mohamed">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conect flex none">
+                        <!-- <div class="led fa-beat fa-fade "></div> -->
+                        <div class="led"></div>
+                        <span class="color-green fo-md ">متصل</span>
+                    </div>
+                </div>
+            </header>
+            <div class="flash-cards gred">
+                <div class="current-balance card">
+                    <p class="fo-md">الرصيد الحالي</p>
+                    <span class="fo-xxl margin-bl">8,450 جنية</span>
+                    <p class="color-green fo-md"><i class="fa-solid fa-arrow-up "></i>+2.5%</p>
+                </div>
+                <div class="current-balance card">
+                    <p class="fo-md">الدخل</p>
+                    <span class="fo-xxl margin-bl">15,000 جنية</span>
+                    <p class="color-green fo-md"><i class="fa-solid fa-arrow-up "></i>+8.4%</p>
+                </div>
+                <div class="current-balance card">
+                    <p class="fo-md">المصروفات</p>
+                    <span class="fo-xxl margin-bl">10,050 جنية</span>
+                    <p class="color-red fo-md"><i class="fa-solid fa-arrow-down "></i>-1.2%</p>
+                </div>
+            </div>
+            <div class="dashboard-content gred">
+                <div class="activities card ">
+                    <h3 class="fo-xl margin-b-16">الأنشطة الحديثة</h3>
+                    <div class="activity-card flex bg-light1-blue">
+                        <div class="circle-icon-32 flex-ceneter bg-light-blue">
+                            <i class="fa-solid fa-user-plus color-blue"></i>
+                        </div>
+                        <div class="activity-content">
+                            <div class="creat-acc flex">
+                                <h4 class="fo-md">إنشاء حساب توفير جديد</h4>
+                                <span class="fo-sm color-blue">حساب</span>
+                            </div>
+                            <p class="fo-sm">تم إنشاء حساب توفير بنك الأهلي بنجاح</p>
+                            <span class="fo-sm">منذ ساعة واحدة</span>
+                        </div>
+
+                    </div>
+                    <div class="activity-card flex bg-light1-green">
+                        <div class="circle-icon-32 flex-ceneter bg-light-green">
+                            <i class="fa-solid fa-credit-card color-green"></i>
+                        </div>
+                        <div class="activity-content">
+                            <div class="creat-acc flex">
+                                <h4 class="fo-md">إضافة بطاقة جديدة</h4>
+                                <span class="fo-sm color-green">بطاقة</span>
+                            </div>
+                            <p class="fo-sm">تمت إضافة بطاقة Visa الجديدة ****2847</p>
+                            <span class="fo-sm">منذ 4 ساعات</span>
+                        </div>
+
+
+                    </div>
+                    <button class="color-blue">عرض جميع الأنشطة (23)</button>
+                </div>
+                <div class="transactions card">
+                    <div class="flex space-be margin-b-16">
+                        <h3 class="fo-xl">المعاملات الأخيرة</h3>
+                        <span class="fo-md">
+                            <a href="" class="color-gray">عرض الكل <i class="fa-solid fa-angle-left "></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <thead>
+                                <tr class="fo-md">
+                                    <th class="">
+                                        المعاملة
+                                    </th>
+                                    <th class="">
+                                        الفئة
+                                    </th>
+                                    <th class="">
+                                        التاريخ
+                                    </th>
+                                    <th class="">
+                                        الحالة
+                                    </th>
+                                    <th class="">
+                                        المبلغ
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <img src="images/avatar-1.jpg" alt="Emma Richardson" class="circle-icon-40">
+                                            <div>
+                                                <p class="">محمود النجار</p>
+                                                <p class="fo-sm color-gray">تحويل أموال</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" color-green lable bg-light-green">
+                                            <i class="fa-solid fa-arrow-down"></i>
+                                            دخل
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">١٤ أكتوبر ٢٠٢٥</td>
+                                    <td class="">
+                                        <span class="fo-sm color-green lable bg-light-green">
+                                            مكتمل
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-green ">
+                                        +350 جنية
+                                    </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <span class="circle-icon-40 bg-light-orange color-orange flex flex-ceneter">
+                                                <i class="fa-solid fa-utensils"></i>
+                                            </span>
+                                            <div>
+                                                <p class="">مطعم Meat moot</p>
+                                                <p class="fo-sm color-gray">دفع مطعم</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" bg-light-orange color-orange-d lable ">
+                                            <i class="fa-solid fa-utensils"></i>
+                                            'اكل'
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">14 أكتوبر، 2025</td>
+                                    <td class="">
+                                        <span class="fo-sm color-red lable bg-light-red">
+                                            غير مكتمل
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-red ">
+                                        -2200 جنية
+                                    </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <span class="circle-icon-40 bg-light-blue color-blue flex flex-ceneter">
+                                                <i class="fa-solid fa-shopping-cart"></i>
+                                            </span>
+                                            <div>
+                                                <p class="">مشتريات Amazon</p>
+                                                <p class="fo-sm color-gray">تسوق إلكتروني</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" bg-light-blue color-blue-d lable">
+                                            <i class="fa-solid fa-shopping-cart"></i>
+                                            تسوق
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">13 أكتوبر، 2025</td>
+                                    <td class="">
+                                        <span class="fo-sm color-green lable bg-light-green">
+                                            مكتمل
+                                        </span>
+                                    </td>
+                                    <td class="fo-md ">
+                                        -5600 جنية
+                                    </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <img src="images/avatar-2.jpg" alt="Emma Richardson" class="circle-icon-40">
+                                            <div>
+                                                <p class="">عمر المهدي</p>
+                                                <p class="fo-sm color-gray">دفع فاتورة مقسمة</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" color-purple-d lable bg-light-purple">
+                                            <i class="fa-solid fa-users"></i>
+                                            فاتورة مقسمة
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">12 أكتوبر ٢٠٢٥</td>
+                                    <td class="">
+                                        <span class="fo-sm color-green lable bg-light-green">
+                                            مكتمل
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-green ">
+                                        +350 جنية
+                                    </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <img src="images/avatar-4.jpg" alt="Emma Richardson" class="circle-icon-40">
+                                            <div>
+                                                <p class="">إســلام مـحـمـد</p>
+                                                <p class="fo-sm color-gray">جينيور full stack</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" color-1 lable bg-1">
+                                            <i class="fa-solid fa-user-ninja"></i>
+                                            مشروع مبرمج
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">8 يناير ٢٠٢٧</td>
+                                    <td class="">
+                                        <span class="fo-sm color-green lable bg-light-green">
+                                            انشاء الله
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-green ">
+                                        +20000 جنية
+                                    </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <span class="circle-icon-40 bg-light-red color-red flex flex-ceneter">
+                                                <i class="fa-solid fa-gas-pump"></i>
+                                            </span>
+                                            <div>
+                                                <p class="">محطة وقود Shell</p>
+                                                <p class="fo-sm color-gray">محطة وقود</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" bg-light-red color-red-d lable ">
+                                            <i class="fa-solid fa-car"></i>
+                                            مواصلات
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">13 أكتوبر، 2025</td>
+                                    <td class="">
+                                        <span class="fo-sm color-yellow-d lable bg-light-yellow">
+                                            معلق
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-yellow-d">
+                                        -900 جنية
+                                    </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <span class="circle-icon-40 bg-light-indigo color-indigo flex flex-ceneter">
+                                                <i class="fa-solid fa-film"></i>
+                                            </span>
+                                            <div>
+                                                <p class="">اشتراك Netflix</p>
+                                                <p class="fo-sm color-gray">اشتراك شهري</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" bg-light-indigo color-indigo lable ">
+                                            <i class="fa-solid fa-tv"></i>
+                                            ترفيه
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">13 أكتوبر، 2025</td>
+                                    <td class="">
+                                        <span class="fo-sm color-green lable bg-light-green">
+                                            مكتمل
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-green ">
+                                        -5600 جنية
+                                    </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <span class="circle-icon-40 bg-light-cyan color-cyan flex flex-ceneter">
+                                                <i class="fa-solid fa-dumbbell"></i>
+                                            </span>
+                                            <div>
+                                                <p class="">اشتراك GYM</p>
+                                                <p class="fo-sm color-gray">اشتراك شهري</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" bg-light-cyan color-cyan lable ">
+                                            <i class="fa-solid fa-heart-pulse"></i>
+                                            ترفيه
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">13 أكتوبر، 2025</td>
+                                    <td class="">
+                                        <span class="fo-sm color-green lable bg-light-green">
+                                            مكتمل
+                                        </span>
+                                    </td>
+                                    <td class="fo-md  ">
+                                        -600 جنية
+                                    </td>
+
+                                </tr>
+                                <tr class="">
+                                    <td class="fo-md">
+                                        <div class=" flex align-ce gab-875">
+                                            <span class="circle-icon-40 bg-light-green color-green flex flex-ceneter">
+                                                <i class="fa-solid fa-graduation-cap"></i>
+                                            </span>
+                                            <div>
+                                                <p class="">كورس Jonas</p>
+                                                <p class="fo-sm color-gray">دورة تعليمة</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="fo-sm">
+                                        <span class=" bg-light-green color-green-d lable ">
+                                            <i class="fa-solid fa-book"></i>
+                                            تعليم
+                                        </span>
+                                    </td>
+                                    <td class="fo-md color-gray">13 أكتوبر، 2025</td>
+                                    <td class="">
+                                        <span class="fo-sm color-green lable bg-light-green">
+                                            مكتمل
+                                        </span>
+                                    </td>
+                                    <td class="fo-md ">
+                                        -500 جنية
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="monthly-bills card">
+                    <div class="flex space-be margin-b-16">
+                        <h3 class="fo-xl">الفواتير الشهرية</h3>
+                        <span class="fo-md">
+                            <a href="" class="color-gray">عرض الكل <i class="fa-solid fa-angle-left "></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="total-invoice">
+                        <p>1920 جنية</p>
+                        <p class="fo-md color-gray">إجمالي الفواتير الشهرية</p>
+                    </div>
+                    <div class="nested-card gred">
+                        <div class="bg-light-gray">
+                            <span class="square-icon-32 bg-light-blue color-blue flex flex-ceneter">
+                                <i class="fa-solid fa-wifi"></i>
+                            </span>
+                            <p class="fo-sm color-gray">إنترنت</p>
+                            <p class="">450 جنية</p>
+                            <p class="fo-sm color-red">يستحق في 3 أيام</p>
+                        </div>
+                        <div class="bg-light-gray">
+                            <span class="square-icon-32 bg-light-orange color-orange flex flex-ceneter">
+                                <i class="fa-solid fa-bolt"></i>
+                            </span>
+                            <p class="fo-sm color-gray">كهرباء</p>
+                            <p class="">950 جنية</p>
+                            <p class="fo-sm color-orange">يستحق في 5 أيام</p>
+                        </div>
+                        <div class="bg-light-gray">
+                            <span class="square-icon-32 bg-light-green color-green flex flex-ceneter">
+                                <i class="fa-solid fa-phone"></i>
+                            </span>
+                            <p class="fo-sm color-gray">هاتف</p>
+                            <p class="">285 جنية</p>
+                            <p class="fo-sm color-green">يستحق في 10 أيام</p>
+                        </div>
+                        <div class="bg-light-gray">
+                            <span class="square-icon-32 bg-light-red color-red flex flex-ceneter">
+                                <i class="fa-solid fa-tv"></i>
+                            </span>
+                            <p class="fo-sm color-gray">Netflix</p>
+                            <p class="">780 جنية</p>
+                            <p class="fo-sm color-gray">يستحق في 15 يوم</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="budget-overview card">
+                    <div class="flex space-be margin-b-16">
+                        <h3 class="fo-xl">نظرة عامة على الميزانية</h3>
+                        <span class="fo-md">
+                            <a href="" class="color-gray">التفاصيل <i class="fa-solid fa-angle-left "></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="cards">
+                        <div class="">
+                            <div class="flex space-be align-ce margin-b-10 flex-wrab">
+                                <div class="">
+                                    <p class="color-blue fo-md">إجمالي الميزانية</p>
+                                    <p class="color-blue-d fo-b">10000 جنية</p>
+                                </div>
+                                <div class="felx-end">
+                                    <p class="color-gray fo-md">المتبقي</p>
+                                    <p class="color-green fo-xl">1750 جنية</p>
+                                </div>
+                            </div>
+                            <div class="color-gray fo-sm flex space-be align-ce">
+                                <p>المستخدم: 8250 جنية</p>
+                                <p>82.5%</p>
+                            </div>
+                            <div class="bar">
+                                <div class="bar-82"></div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="flex space-be align-ce margin-b-10 flex-wrab">
+                                <div class="flex align-ce gab-875">
+                                    <div class="">
+                                        <span class="square-icon-40 bg-light-green color-green flex flex-ceneter">
+                                            <i class="fa-solid fa-film"></i>
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        <p class="">ترفيه</p>
+                                        <p class="fo-sm color-gray">الميزانية: 1500 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="felx-end align-ce">
+                                    <p class="">750 جنية</p>
+                                    <p class="fo-sm color-green-d bg-light-green lable">متبقي 50%</p>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="bar-50"></div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="flex space-be align-ce margin-b-10 flex-wrab">
+                                <div class="flex align-ce gab-875">
+                                    <div class="">
+                                        <span class="square-icon-40 bg-light-red color-red flex flex-ceneter">
+                                            <i class="fa-solid fa-file-invoice-dollar"></i>
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        <p class="">فواتير</p>
+                                        <p class="fo-sm color-gray">الميزانية: 2000 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="felx-end align-ce">
+                                    <p class="">2000 جنية</p>
+                                    <p class="fo-sm color-red-d bg-light-red lable">مستخدم 100%</p>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="bar-100"></div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="flex space-be align-ce margin-b-10 flex-wrab">
+                                <div class="flex align-ce gab-875">
+                                    <div class="">
+                                        <span class="square-icon-40 bg-light-pink color-pink flex flex-ceneter">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        <p class="">العناية الشخصية</p>
+                                        <p class="fo-sm color-gray">الميزانية: 1500 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="felx-end align-ce">
+                                    <p class="">1200 جنية</p>
+                                    <p class="fo-sm color-yellow-d bg-light-yellow lable">متبقي 20%</p>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="bar-20"></div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="flex space-be align-ce margin-b-10 flex-wrab">
+                                <div class="flex align-ce gab-875">
+                                    <div class="">
+                                        <span class="square-icon-40 bg-light-orange color-orange flex flex-ceneter">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        <p class="">مستلزمات المنزل</p>
+                                        <p class="fo-sm color-gray">الميزانية: 5000 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="felx-end align-ce">
+                                    <p class="">4300 جنية</p>
+                                    <p class="fo-sm color-orange-d bg-light-orange lable">متبقي 14%</p>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="bar-14"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="income-expenses card">
+                    <div class="flex space-be margin-b-16 ">
+                        <h3 class="fo-xl">الدخل مقابل المصروفات</h3>
+                        <span class="fo-md">
+                            <a href="" class="color-gray">الإحصائيات <i class="fa-solid fa-angle-left "></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="flex flex-colu h-99">
+                        <div class="flex gab-875 flex-ceneter frist">
+                            <div class="income flex align-ce gab-500">
+                                <div class="green-12"></div>
+                                <span class="fo-sm color-gray">الدخل</span>
+                            </div>
+                            <div class="expenses flex align-ce gab-500 ">
+                                <div class="red-12"></div>
+                                <span class="fo-sm color-gray">المصروفات</span>
+                            </div>
+                        </div>
+                        <div class="flex bar-vertical last">
+                            <div class="">
+                                <div class="chart flex">
+                                    <div class="bar-red bar-v bar-h-42"></div>
+                                    <div class="bar-green bar-v bar-h-95"></div>
+                                </div>
+                                <span class="fo-sm color-gray">الأسبوع 1</span>
+                            </div>
+                            <div class="">
+                                <div class="chart flex">
+                                    <div class="bar-red bar-v bar-h-42"></div>
+                                    <div class="bar-green bar-v bar-h-95"></div>
+                                </div>
+                                <span class="fo-sm color-gray">الأسبوع 1</span>
+                            </div>
+                            <div class="">
+                                <div class="chart flex">
+                                    <div class="bar-red bar-v bar-h-42"></div>
+                                    <div class="bar-green bar-v bar-h-95"></div>
+                                </div>
+                                <span class="fo-sm color-gray">الأسبوع 1</span>
+                            </div>
+                            <div class="">
+                                <div class="chart flex">
+                                    <div class="bar-red bar-v bar-h-42"></div>
+                                    <div class="bar-green bar-v bar-h-95"></div>
+                                </div>
+                                <span class="fo-sm color-gray">الأسبوع 1</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-methods card flex flex-colu">
+                    <div class="flex space-be margin-b-16 bolo">
+                        <h3 class="fo-xl">وسائل الدفع</h3>
+                        <span class="fo-md">
+                            <a href="" class="color-gray">إدارة <i class="fa-solid fa-angle-left "></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="payment-cards">
+                        <div class="visa">
+                            <div class="master-card p-relative">
+                                <div class="front-card ">
+                                    <span class="badge color-withe">اساسية</span>
+                                    <div class="flex space-be margin-b-32">
+                                        <div class="solid-parent flex flex-ceneter">
+                                            <div class="solid-child"></div>
+                                        </div>
+                                        <span class="brand-card margin-t-10">
+                                            <i class="fa-brands fa-cc-visa fo-xxl"></i>
+                                        </span>
+                                    </div>
+                                    <div class="code margin-b-8">
+                                        <p>•••• •••• •••• 4532</p>
+                                    </div>
+                                    <div class="flex space-be">
+                                        <div class="">
+                                            <p class="color-blue fo-sm color-b-blue">حامل البطاقة</p>
+                                            <p class="fo-sm color-gray">اسـلام محمد</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="fo-sm color-gray">تنتهي</p>
+                                            <p class="fo-md color-gray">12/26</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="strips"></div>
+                                    <span class="print">توقيع معتمد - غير صالحة بدون توقيع</span>
+                                    <div class="signature">
+                                        <div class="bar-secret"></div>
+                                        <div class="num-4">5867</div>
+
+
+                                    </div>
+                                    <div class="cvv flex">
+                                        <div class="flex-1"></div>
+                                        <div class="">
+                                            <!-- <span class="fo-sm color-gray">CVV</span> -->
+                                            <div class="fo-md color-withe">CVV</div>
+                                            <div class="cvv-box">125</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="master">
+                            <div class="master-card p-relative">
+                                <div class="front-card ">
+                                    <div class="flex space-be margin-b-32">
+                                        <div class="solid-parent flex flex-ceneter">
+                                            <div class="solid-child"></div>
+                                        </div>
+                                        <span class="brand-card">
+                                            <i class="fa-brands fa-cc-mastercard fo-xxl"></i>
+                                        </span>
+                                    </div>
+                                    <div class="code margin-b-8">
+                                        <p>•••• •••• •••• 8901</p>
+                                    </div>
+                                    <div class="flex space-be">
+                                        <div class="">
+                                            <p class="color-blue fo-sm">حامل البطاقة</p>
+                                            <p class="fo-sm color-gray">مؤمن البيست</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="fo-sm color-gray">تنتهي</p>
+                                            <p class="fo-md color-gray">08/27</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="strips"></div>
+                                    <span class="print">توقيع معتمد - غير صالحة بدون توقيع</span>
+                                    <div class="signature">
+                                        <div class="bar-secret"></div>
+                                        <div class="num-4">5687</div>
+
+
+                                    </div>
+                                    <div class="cvv flex">
+                                        <div class="flex-1"></div>
+                                        <div class="">
+                                            <!-- <span class="fo-sm color-gray">CVV</span> -->
+                                            <div class="fo-md color-withe">CVV</div>
+                                            <div class="cvv-box">456</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="paypal">
+                            <div class="master-card p-relative">
+                                <div class="front-card ">
+                                    <div class="flex space-be margin-b-32">
+                                        <div class="solid-parent flex flex-ceneter">
+                                            <div class="solid-child"></div>
+                                        </div>
+                                        <span class="brand-card">
+                                            <i class="fa-brands fa-cc-paypal fo-xxl"></i>
+                                        </span>
+                                    </div>
+                                    <div class="code margin-b-8">
+                                        <p class="fo-fa">حساب Paypal</p>
+                                    </div>
+                                    <div class="flex space-be">
+                                        <div class="">
+                                            <p class="color-blue fo-sm color-b-blue">الايميل</p>
+                                            <p class="fo-md color-gray">eslam.mongez@gmail.com</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="fo-sm color-gray">الحالة</p>
+                                            <p class="fo-md color-green-d">موثق</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="strips"></div>
+                                    <span class="print">توقيع معتمد - غير صالحة بدون توقيع</span>
+                                    <div class="signature">
+                                        <div class="bar-secret"></div>
+                                        <div class="num-4">PP01</div>
+
+
+                                    </div>
+                                    <div class="cvv flex">
+                                        <div class="flex-1"></div>
+                                        <div class="">
+                                            <!-- <span class="fo-sm color-gray">CVV</span> -->
+                                            <div class="fo-md color-withe">ID</div>
+                                            <div class="cvv-box">PP-01</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="account-summary card ">
+                    <div class="flex space-be margin-b-16 ">
+                        <h3 class="fo-xl">ملخص الحساب</h3>
+                        <span class="fo-md">
+                            <a href="" class="color-gray">التفاصيل <i class="fa-solid fa-angle-left "></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="cards">
+                        <div class="">
+                            <div class="flex space-be align-ce flex-wrab">
+                                <div class="flex align-ce gab-875">
+                                    <div class="">
+                                        <span class="square-icon-40 bg-light-blue color-blue flex flex-ceneter">
+                                            <i class="fa-solid fa-bank"></i>
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        <p class="">حساب جاري</p>
+                                        <p class="fo-sm color-gray">بنك مصر [•••• 4532]</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="">8,450 جنية</p>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="bar-50"></div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="flex space-be align-ce flex-wrab">
+                                <div class="flex align-ce gab-875">
+                                    <div class="">
+                                        <span class="square-icon-40 bg-light-green color-green flex flex-ceneter">
+                                            <i class="fa-solid fa-piggy-bank"></i>
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        <p class="">حساب التوفير</p>
+                                        <p class="fo-sm color-gray">بنك مصر [•••• 8901]</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="">297,540 جنية</p>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="bar-50"></div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="flex space-be align-ce flex-wrab">
+                                <div class="flex align-ce gab-875">
+                                    <div class="">
+                                        <span class="square-icon-40 bg-light-purple color-purple-d flex flex-ceneter">
+                                            <i class="fa-solid fa-credit-card"></i>
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        <p class="">بطاقة ائتمان</p>
+                                        <p class="fo-sm color-gray">متاح: 1,850 جنية من 2,500 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="color-red">- 6,000 جنية</p>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="bar-50"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

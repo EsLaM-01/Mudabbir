@@ -1074,6 +1074,7 @@ table td {
   }
   main .flash-cards {
     grid-template-columns: 1fr;
+    row-gap: 1.5rem;
   }
   .table {
     width: 100%;

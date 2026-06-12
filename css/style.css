@@ -585,6 +585,7 @@ main .flash-cards {
 }
 .table table {
   width: 100%;
+
   border-collapse: collapse;
 }
 table p {

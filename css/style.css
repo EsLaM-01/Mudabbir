@@ -575,9 +575,13 @@ main .flash-cards {
   align-items: center;
   justify-content: space-between;
 }
+transactions.card {
+  overflow: auto;
+}
 .table {
   overflow: auto;
-  width: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: #9ca3af4d transparent;
 }
 .table table {
   width: 100%;
@@ -1078,8 +1082,10 @@ table td {
     overflow-x: scroll;
   }
   table {
-    width: 600px;
+    width: auto;
     overflow-x: scroll;
+    width: 100%;
+    min-width: max-content;
   }
   .header-info {
     flex-direction: column;
